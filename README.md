@@ -21,6 +21,7 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 ## Dataset Preparation
 
 Organize image files and annotation files according to the following structure, placing them in the same directory as the main code file main.py:
+
 ├── main.py
 ├── images
 │   ├── img_001.jpg
@@ -29,6 +30,7 @@ Organize image files and annotation files according to the following structure, 
 ├── multilabel_train.json
 ├── multilabel_val.json
 └── multilabel_test.json
+
 ***
 
 ## Code Execution
@@ -40,11 +42,14 @@ Within an activated virtual environment, navigate to the code root directory and
    (1) Single-round few-shot training
 Specify the number of positive samples per class, applicable for FEWSHOT=True mode:
 Example: 8 shots few-shot learning
+~~~
 python main.py --shots 8
-
+~~~
    (2) Multi-round Few-Shot Training
 Automatically runs five experimental groups with 1/2/4/8/16 shots, applicable to FEWSHOT=True mode:
+~~~
 python main.py --all_shots
+~~~
 ***
 ## Acknowledgments and Citations
 1. The foundational model is based on OpenAI's CLIP implementation;
