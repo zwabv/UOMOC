@@ -11,11 +11,11 @@ System Requirements
 • CUDA Version: 11.3 or higher (recommended; CPU can run but training efficiency is extremely low)
 • GPU Memory Requirement: ≥8GB (12GB or higher recommended for ViT-B/32 model compatibility)
 
-#Dependency Installation
+#Dependency Installation.
 
 Install dependencies
 pip install -r requirements.txt
-# If CUDA acceleration is required, install the corresponding version of PyTorch (e.g., cu117).
+
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu117
 
 Dataset Preparation
