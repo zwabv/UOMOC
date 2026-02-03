@@ -41,12 +41,13 @@ Within an activated virtual environment, navigate to the code root directory and
 
    (1) Single-round few-shot training
 Specify the number of positive samples per class, applicable for FEWSHOT=True mode:
+
 Example: 8 shots few-shot learning
 ~~~
 python main.py --shots 8
 ~~~
    (2) Multi-round Few-Shot Training
-Automatically runs five experimental groups with 1/2/4/8/16 shots, applicable to FEWSHOT=True mode:
+Automatically runs five experimental groups with 1/2/4/8/16 shots,    applicable to FEWSHOT=True mode:
 ~~~
 python main.py --all_shots
 ~~~
