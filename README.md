@@ -22,14 +22,14 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 
 Organize image files and annotation files according to the following structure, placing them in the same directory as the main code file main.py:
 
-1├── main.py
-2├── images
-3│   ├── img_001.jpg
-4│   ├── img_002.png
-5│   └── ...
-6├── multilabel_train.json
-7├── multilabel_val.json
-8└── multilabel_test.json
+1 ├── main.py
+2 ├── images
+3 │   ├── img_001.jpg
+4 │   ├── img_002.png
+5 │   └── ...
+6 ├── multilabel_train.json
+7 ├── multilabel_val.json
+8 └── multilabel_test.json
 
 ***
 
@@ -48,7 +48,7 @@ python main.py --shots 8
 ~~~
    (2) Multi-round Few-Shot Training
 Automatically runs five experimental groups with 1/2/4/8/16 shots,    applicable to FEWSHOT=True mode:
-~~~
+~~~ javascript
 python main.py --all_shots
 ~~~
 ***
