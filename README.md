@@ -22,21 +22,21 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 
 Organize image files and annotation files according to the following structure, placing them in the same directory as the main code file main.py:
 
-1. list├── main.py
+├── main.py
+
+├── images
    
-3. list├── images
+│   ├── img_001.jpg
    
-5. list│   ├── img_001.jpg
+│   ├── img_002.png
    
-7. list│   ├── img_002.png
-   
-9. list│   └── ...
+│   └── ...
     
-11. list├── multilabel_train.json
+├── multilabel_train.json
     
-13. list├── multilabel_val.json
+├── multilabel_val.json
     
-15. list└── multilabel_test.json
+└── multilabel_test.json
 
 ***
 
