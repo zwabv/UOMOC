@@ -17,8 +17,10 @@ This project leverages the CLIP pre-trained model, integrating adapters with lea
 
 ### Dependency Installation.
 
-Install dependencies
+Install dependencies:
+
 pip install -r requirements.txt
+
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu117
 ***
 ## Dataset Preparation
