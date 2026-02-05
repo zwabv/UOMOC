@@ -8,8 +8,11 @@ This project leverages the CLIP pre-trained model, integrating adapters with lea
 ### System Requirements
 
 • Operating System: Linux/Windows/macOS (Linux recommended for GPU training)
+
 • Python Version: 3.8 or higher
+
 • CUDA Version: 11.3 or higher (recommended; CPU can run but training efficiency is extremely low)
+
 • GPU Memory Requirement: ≥8GB (12GB or higher recommended for ViT-B/32 model compatibility)
 
 ### Dependency Installation.
