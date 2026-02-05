@@ -22,14 +22,14 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 
 Organize image files and annotation files according to the following structure, placing them in the same directory as the main code file main.py:
 
-├── main.py
-├── images
-│   ├── img_001.jpg
-│   ├── img_002.png
-│   └── ...
-├── multilabel_train.json
-├── multilabel_val.json
-└── multilabel_test.json
+1├── main.py
+2├── images
+3│   ├── img_001.jpg
+4│   ├── img_002.png
+5│   └── ...
+6├── multilabel_train.json
+7├── multilabel_val.json
+8└── multilabel_test.json
 
 ***
 
@@ -43,7 +43,7 @@ Within an activated virtual environment, navigate to the code root directory and
 Specify the number of positive samples per class, applicable for FEWSHOT=True mode:
 
 Example: 8 shots few-shot learning
-~~~
+~~~ javascript
 python main.py --shots 8
 ~~~
    (2) Multi-round Few-Shot Training
